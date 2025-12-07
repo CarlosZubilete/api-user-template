@@ -1,0 +1,59 @@
+/generated/prisma
+# Dependencies
+node_modules
+.pnpm-store/
+
+# Environment variables
+.env
+.env.prod
+.env*.local
+
+# TypeScript build outputs
+dist/
+build/
+*.tsbuildinfo
+
+# Prisma
+/src/generated/prisma
+*.db
+*.db-journal
+prisma/*.db
+prisma/*.db-journal
+
+
+# Logs
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# IDE and OS files
+.idea/
+.vscode/
+.DS_Store
+*.pem
+.vercel
+.next
+
+# Testing
+coverage/
+
+# Production build
+dist/
+build/
+
+# Debug
+.pnpm-debug.log*
+.npm
+.eslintcache
+
+#Other/docker 
+.dockerignore 
+/dev
+/dist
+
+# DOCKER 
+docker-compose.prod.yml
+docker-compose.dev.yml
+/docker
+Dockerfile
